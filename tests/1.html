@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="../style.css">
+<center>
+  <h3>Тест 1</h3>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function check() {
+      var is = document.getElementById("is");
+      var my = document.getElementById("my");
+      var give = document.getElementById("give");
+      if (is.value == "is") {
+        is.style.background = "#22ff22";
+      } else {
+        is.style.background = "#ff2222";
+      }
+      if (my.value == "my") {
+        is.style.background = "#22ff22";
+      } else {
+        is.style.background = "#ff2222";
+      }
+      if (give.value == "give") {
+        give.style.background = "#22ff22";
+      } else {
+        give.style.background = "#ff2222";
+      }
+    }
+  </script>
+  <p>Where <input id="is"> bus stop?</p><br>
+  <p>Hi, <input id="my"> name is Maria.</p><br>
+  <p>Can you please <input id="give"> me the rubber?</p><br>
+  <button onclick="check()">Check my work</button>
+</center>
+<!--GitHub Pages-->
