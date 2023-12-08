@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="../style.css">
+<center>
+  <h3>Тест 2</h3>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function check() {
+      var a = document.getElementById("a");
+      var are = document.getElementById("are");
+      var in1 = document.getElementById("in");
+      var in2 = document.getElementById("in2");
+      var in3 = document.getElementById("in3");
+      var in4 = document.getElementById("in4");
+      if (a.value == "a") {
+        a.style.background = "#22ff22";
+      } else {
+        a.style.background = "#ff2222";
+      }
+      if (are.value == "are") {
+        are.style.background = "#22ff22";
+      } else {
+        are.style.background = "#ff2222";
+      }
+      if (in1.value == "in") {
+        in1.style.background = "#22ff22";
+      } else {
+        in1.style.background = "#ff2222";
+      }
+      if (in2.value == "in") {
+        in2.style.background = "#22ff22";
+      } else {
+        in2.style.background = "#ff2222";
+      }
+      if (in3.value == "in3") {
+        in3.style.background = "#22ff22";
+      } else {
+        in3.style.background = "#ff2222";
+      }
+      if (in4.value == "in") {
+        in4.style.background = "#22ff22";
+      } else {
+        in4.style.background = "#ff2222";
+      }
+    }
+  </script>
+  <p>Welcome to <input style="width: 150px;" id="a"> superquiz! There <input style="width: 150px;" id="are"> are two teams: Team A and Team B!<br>Question 1: What colour is Shrek?<br>Team A: Green<br>Q: Correct!<br>Question 2: Where is Disney Land?<br>Team B: It's <input style="width: 150px;" id="in"> Britain.<br>Q: That's incorrect!  It's <input style="width: 150px;" id="in2"> USA<br>Last question: Where <input style="width: 150px;" id="in3"> the Big Ben?<br>Team A: <input style="width: 150px;" id="in4"> Britain!<br>Q: Correct!<br>Results: Team A - 2, Team B - 1</p><br>
+  <button style="height: 90px;" onclick="check()">Check my work</button>
+</center>
+<!--GitHub Pages-->
